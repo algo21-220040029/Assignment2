@@ -13,4 +13,9 @@ The definition of volatility is the standard deviation of the rate of return of 
 The rate of return can be calculated using the closing price, and then rolling is used to calculate the standard deviation to get the volatility.  
 First compare the volatility of different rolling times and we can get the following figure:  
 ![image](https://user-images.githubusercontent.com/78793744/117833079-9e004600-b2a8-11eb-8148-64698d26fc5d.png)
-
+Next is an image of the 250-day volatility and the Shanghai Composite Index 
+![image](https://user-images.githubusercontent.com/78793744/117836149-05b79080-b2ab-11eb-9257-10b75adafad8.png)
+Combining experience with the above figure, it can be found that in a rapidly rising or falling bull and bear market, the volatility starts when the bull market starts, and will continue to rise at the beginning of the bear market until the end of the bear market.   
+This is because the trading volume changes in the bull market, and when the stock market reaches the top, the selling of stocks will be more intense, which will increase the volatility and the stock market will fall more rapidly than the rise.   
+This rule gives a potential method to judge the transition or end of a bull market and a bear market.   
+In a slow down bear market, volatility does not follow the above-mentioned law. 
