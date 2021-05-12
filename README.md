@@ -19,3 +19,10 @@ Combining experience with the above figure, it can be found that in a rapidly ri
 This is because the change of the price rising in the bull market, and when the stock market reaches the top, the willing of selling stocks will be more intense, which will increase the changing speed of and the price of stock market.    
 This rule gives a potential method to judge the transition or end of a bull market and a bear market.   
 In a slow down bear market, volatility does not follow the above-mentioned law. 
+Now let’s look at the turnover rate  
+The figure below shows the turnover rate of different parameters  
+![image](https://user-images.githubusercontent.com/78793744/117977010-f72cb000-b362-11eb-9c88-c7af13563064.png)
+Next is the 250-day turnover rate and the Shanghai Composite Index  
+![image](https://user-images.githubusercontent.com/78793744/117977025-fdbb2780-b362-11eb-9e07-0c68bd1398ed.png)
+It can be found that the turnover rate and the Shanghai Composite Index are positively correlated, which has the potential to judge the bull and bear market   
+
