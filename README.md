@@ -37,8 +37,18 @@ Found that the bull and bear market indicators have an inverse relationship with
 上证指数	上证50	沪深300	中证500	万得全A
 -0.446322393	-0.303634254	-0.418759558	-0.432993728	-0.405640939
 However, in this backtest period, the correlation between the bull and bear indicators and the stock index is not as good as the -0.6 in the article, so the backtest results later are not as good as the article.   
-Choose CSI 500 as the backtest asset  
-中证500最终收益:0.9519797665309107
-The final return of CSI500 is 95% according to the Backtest() function in Strategy_BullBear.py  
+The final return of 上证指数、上证50、沪深300、中证500、万得全A is   
+上证指数最终收益:0.7838098381243166
+上证50最终收益:0.7534795112057018
+沪深300最终收益:1.0818006998845
+中证500最终收益:1.4935436172486223
+万得全A最终收益:1.9018456135226227
+according to the Backtest() function in Strategy_BullBear.py  
+The net value curve is:  
+
+
+
+The pictures are plot by excel, which name is 画图  
+The main python program is StrategyBullBear.py  
 
 
