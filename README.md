@@ -54,7 +54,7 @@ It can be found that the advantage of this factor is that when the stock index f
 The disadvantage is that it cannot stop the loss when the sharp fall occurs.    
 This may be because of the use of the 250-day bull and bear Indicators, leading to a certain degree of lag.   
 
-The pictures are plot by excel, which name is 画图  
+The pictures are plot by excel, which name is 画图.xlsx
 The main python program is StrategyBullBear.py  
 
 
