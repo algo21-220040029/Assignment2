@@ -21,8 +21,15 @@ This rule gives a potential method to judge the transition or end of a bull mark
 In a slow down bear market, volatility does not follow the above-mentioned law. 
 Now let’s look at the turnover rate  
 The figure below shows the turnover rate of different parameters  
-![image](https://user-images.githubusercontent.com/78793744/117977010-f72cb000-b362-11eb-9c88-c7af13563064.png)
+![image](https://user-images.githubusercontent.com/78793744/117977010-f72cb000-b362-11eb-9c88-c7af13563064.png)  
 Next is the 250-day turnover rate and the Shanghai Composite Index  
-![image](https://user-images.githubusercontent.com/78793744/117977025-fdbb2780-b362-11eb-9e07-0c68bd1398ed.png)
+![image](https://user-images.githubusercontent.com/78793744/117977025-fdbb2780-b362-11eb-9e07-0c68bd1398ed.png)  
 It can be found that the turnover rate and the Shanghai Composite Index are positively correlated, which has the potential to judge the bull and bear market   
-
+Now let's build the bull and bear indicator  
+First of all, we must first clarify the turnover rate and volatility corresponding to each market situation  
+In a bull market, the volatility will rise, and the turnover rate will also rise;  
+In a bear market, the volatility will increase and the turnover rate will decrease;  
+When the volatility falls and the turnover rate rises, the market appears to be an upward trend;  
+When the volatility decreases and the turnover rate decreases, it appears as a shocking market.  
+Use volatility divided by turnover rate as a bull and bear indicator  
+The advantage of this is that it can better characterize the above four situations, especially the bear market, which can be well captured by the bull and bear indicators to avoid risks.   
