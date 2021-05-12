@@ -45,12 +45,23 @@ The final return of 上证指数、上证50、沪深300、中证500、万得全A
 万得全A最终收益:1.9018456135226227  
 according to the Backtest() function in Strategy_BullBear.py   
 The net value curve is:   
-
-
+![image](https://user-images.githubusercontent.com/78793744/117985904-b7b69180-b36b-11eb-894d-1ce16d3af80e.png)   
+![image](https://user-images.githubusercontent.com/78793744/117987052-be91d400-b36c-11eb-9be4-c24e12cfb670.png)  
+![image](https://user-images.githubusercontent.com/78793744/117987455-129cb880-b36d-11eb-9ca4-803dee81270f.png)  
+![image](https://user-images.githubusercontent.com/78793744/117987625-3c55df80-b36d-11eb-9575-120e31b654ec.png)  
+![image](https://user-images.githubusercontent.com/78793744/117987793-67d8ca00-b36d-11eb-8e0c-410f140e4ffa.png)  
+It can be found that the advantage of this factor is that when the stock index falls sharply, the strategy can play the effect of stopping the loss one step ahead of the index.    
+The disadvantage is that it cannot stop the loss when the sharp fall occurs.    
+This may be because of the use of the 250-day bull and bear Indicators, leading to a certain degree of lag.   
 
 The pictures are plot by excel, which name is 画图  
 The main python program is StrategyBullBear.py  
-![image](https://user-images.githubusercontent.com/78793744/117985904-b7b69180-b36b-11eb-894d-1ce16d3af80e.png)  
+
+
+
+
+
+
 
 
 
