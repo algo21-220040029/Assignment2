@@ -26,10 +26,19 @@ Next is the 250-day turnover rate and the Shanghai Composite Index
 ![image](https://user-images.githubusercontent.com/78793744/117977025-fdbb2780-b362-11eb-9e07-0c68bd1398ed.png)  
 It can be found that the turnover rate and the Shanghai Composite Index are positively correlated, which has the potential to judge the bull and bear market   
 Now let's build the bull and bear indicator  
-First of all, we must first clarify the turnover rate and volatility corresponding to each market situation  
+First of all, we must first clarify the turnover rate and volatility corresponding to each market situation.  
 In a bull market, the volatility will rise, and the turnover rate will also rise;  
 In a bear market, the volatility will increase and the turnover rate will decrease;  
 When the volatility falls and the turnover rate rises, the market appears to be an upward trend;  
-When the volatility decreases and the turnover rate decreases, it appears as a shocking market.  
-Use volatility divided by turnover rate as a bull and bear indicator  
-The advantage of this is that it can better characterize the above four situations, especially the bear market, which can be well captured by the bull and bear indicators to avoid risks.   
+When the volatility decreases and the turnover rate decreases, it appears as a shocking market.   
+Use volatility divided by turnover rate as a bull and bear indicator   
+The advantage of this is that it can better characterize the above four situations, especially the bear market, which can be well captured by the bull and bear indicators to avoid risks.    
+Found that the bull and bear market indicators have an inverse relationship with stock indexes.   
+上证指数	上证50	沪深300	中证500	万得全A
+-0.446322393	-0.303634254	-0.418759558	-0.432993728	-0.405640939
+However, in this backtest period, the correlation between the bull and bear indicators and the stock index is not as good as the -0.6 in the article, so the backtest results later are not as good as the article.   
+Choose CSI 500 as the backtest asset  
+中证500最终收益:0.9519797665309107
+The final return of CSI500 is 95% according to the Backtest() function in Strategy_BullBear.py  
+
+
